@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="format-detection" content="telephone=no">
-	<title>Arbeco</title>
+	<title>Arbeko | Contacts</title>
     
 	<!-- favicon tag -->
 
@@ -50,10 +50,10 @@
             
             <div id="load-cnt-m">
                 <div class="inset-port-m">
-                    <div class="crumbs">
+                    <div class="crumbs startIn">
                         <a href="/" title="Главная">Главная</a>
                     </div>
-                    <div class="title-inside">
+                    <div class="title-inside startIn">
                         <h2>Контакты</h2>
                     </div>
                     <div class="contact-blk">
@@ -72,6 +72,9 @@
                                     ул. Тихая, 30<br>
                                     <a href="tel:8 (495) 665 84 68">8 (495) 665 84 68</a>
                                 </p>
+                            </div>
+                            <div class="modal-tm">
+                                <a href="#" class="modal-open">отправить заявку</a>
                             </div>
                         </div>
                         <div class="right-con-blk">

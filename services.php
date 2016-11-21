@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="format-detection" content="telephone=no">
-	<title>Arbeco</title>
+	<title>Arbeko | Services</title>
     
 	<!-- favicon tag -->
 
@@ -50,17 +50,17 @@
             
             <div id="load-cnt-m">
                 <div class="inset-port-m">
-                    <div class="crumbs">
+                    <div class="crumbs startIn">
                         <a href="/" title="Главная">Главная</a>
                     </div>
-                    <div class="title-inside">
+                    <div class="title-inside startIn">
                         <h2>Услуги</h2>
                     </div>
                     <div class="services">
                         <div class="inset-services">
-                            <div class="service">
-                                <object data="/svg/image-ser1.svg" type="image/svg+xml"></object>
-                                <div class="text-service">
+                            <div class="service animFuncs">
+                                <object data="/svg/image-ser1.svg" class="animateText object" type="image/svg+xml"></object>
+                                <div class="text-service animateText">
                                     <p>
                                         Проектирование и дизайн
                                     </p>
@@ -70,13 +70,13 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="line-ser"></div>
+                                <div class="line-ser animateText"></div>
                             </div>
                         </div>
                         <div class="inset-services">
-                            <div class="service">
-                                <object data="/svg/image-ser2.svg" type="image/svg+xml"></object>
-                                <div class="text-service">
+                            <div class="service animFuncs">
+                                <object data="/svg/image-ser2.svg" class="animateText object" type="image/svg+xml"></object>
+                                <div class="text-service animateText">
                                     <p>
                                         Производство и монтаж
                                     </p>
@@ -86,13 +86,13 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="line-ser"></div>
+                                <div class="line-ser animateText"></div>
                             </div>
                         </div>
                         <div class="inset-services">
-                            <div class="service">
-                                <object data="/svg/image-ser3.svg" type="image/svg+xml"></object>
-                                <div class="text-service">
+                            <div class="service animFuncs">
+                                <object data="/svg/image-ser3.svg" class="animateText object" type="image/svg+xml"></object>
+                                <div class="text-service animateText">
                                     <p>
                                         Реконструкция и реставрация
                                     </p>
@@ -102,12 +102,12 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="line-ser"></div>
+                                <div class="line-ser animateText"></div>
                             </div>
                         </div>
                     </div>
-                    <div class="form-services">
-                        <div class="form-inset-s">
+                    <div class="form-services animFuncs">
+                        <div class="form-inset-s animateText">
                             <div class="form-port">
                                 <p>
                                     Оформить заявку
@@ -137,6 +137,9 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="modal-tm">
+                        <a href="#" class="modal-open">отправить заявку</a>
                     </div>
 
                     <!-- begin connection footer -->

@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="format-detection" content="telephone=no">
-	<title>Arbeco</title>
+	<title>Arbeko | Facade decor</title>
     
 	<!-- favicon tag -->
 
@@ -50,11 +50,11 @@
             
             <div id="load-cnt-m">
                 <div class="inset-port-m">
-                    <div class="crumbs">
+                    <div class="crumbs startIn">
                         <a href="/" title="Главная">Главная</a>
                         <a href="/portfolio" title="Портфолио">Портфолио</a>
                     </div>
-                    <div class="title-inside">
+                    <div class="title-inside startIn">
                         <h2>Фасадный декор</h2>
                     </div>
                     <div class="photos-port">
@@ -90,8 +90,8 @@
                         </div>
                     </div>
                     <div class="form-services">
-                        <div class="form-inset-s">
-                            <div class="form-port">
+                        <div class="form-inset-s animFuncs">
+                            <div class="form-port animateText">
                                 <p>
                                     Оформить заявку
                                 </p>
@@ -120,6 +120,9 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="modal-tm">
+                        <a href="#" class="modal-open">отправить заявку</a>
                     </div>
 
                     <!-- begin connection footer -->

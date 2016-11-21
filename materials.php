@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="format-detection" content="telephone=no">
-	<title>Arbeco</title>
+	<title>Arbeko | Materials</title>
     
 	<!-- favicon tag -->
 
@@ -50,15 +50,29 @@
             
             <div id="load-cnt-m">
                 <div class="inset-port-m">
-                    <div class="crumbs">
+                    <div class="crumbs startIn">
                         <a href="/" title="Главная">Главная</a>
                     </div>
-                    <div class="title-inside">
+                    <div class="title-inside startIn">
                         <h2>Материалы</h2>
                     </div>
                     <div class="materials-wr">
-                        <div class="material-blk">
-                            <div class="text-mat-blk">
+                        <div class="material-blk animFuncs">
+                            <div class="wr-image-mat">
+                                <div class="image-mat-blk animateIMG">
+                                    <div class="black-wr"></div>
+                                    <img src="/images/material1.jpg" alt="material image">
+                                    <div class="tm-quote animateText">
+                                        <div class="inner-tm-quote">
+                                            <blockquote>
+                                                Стеклофибробетон в 10-15 раз прочнее традиционных бетонов, и в 4-5 раз гибче. 
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="line-mat animateText"></div>
+                            </div>
+                            <div class="text-mat-blk animateText">
                                 <p>
                                     Стеклофибробетон
                                 </p>
@@ -71,14 +85,23 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="image-mat-blk">
-                                <div class="black-wr"></div>
-                                <img src="/images/material1.jpg" alt="material image">
-                            </div>
-                            <div class="line-mat"></div>
                         </div>
-                        <div class="material-blk">
-                            <div class="text-mat-blk">
+                        <div class="material-blk animFuncs">
+                            <div class="wr-image-mat">
+                                <div class="image-mat-blk animateIMG">
+                                    <div class="black-wr"></div>
+                                    <img src="/images/material2.jpg" alt="material image">
+                                    <div class="tm-quote animateText">
+                                        <div class="inner-tm-quote">
+                                            <blockquote>
+                                                По показателю удельной прочности стеклопластики превосходят сталь, имея 3,5 раза меньший вес и крайне низкую теплопроводность.
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="line-mat animateText"></div>
+                            </div>
+                            <div class="text-mat-blk animateText">
                                 <p>
                                     Стеклопластик
                                 </p>
@@ -91,14 +114,23 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="image-mat-blk">
-                                <div class="black-wr"></div>
-                                <img src="/images/material2.jpg" alt="material image">
-                            </div>
-                            <div class="line-mat"></div>
                         </div>
-                        <div class="material-blk">
-                            <div class="text-mat-blk">
+                        <div class="material-blk animFuncs">
+                            <div class="wr-image-mat">
+                                <div class="image-mat-blk animateIMG">
+                                    <div class="black-wr"></div>
+                                    <img src="/images/material3.jpg" alt="material image">
+                                    <div class="tm-quote animateText">
+                                        <div class="inner-tm-quote">
+                                            <blockquote>
+                                                Из гипса отливаются элементы внешнего и внутреннего декора, от простых пилястр и меандров до сложных барельефных композиций
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="line-mat animateText"></div>
+                            </div>
+                            <div class="text-mat-blk animateText">
                                 <p>
                                     Гипс
                                 </p>
@@ -111,19 +143,28 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="image-mat-blk">
-                                <div class="black-wr"></div>
-                                <img src="/images/material3.jpg" alt="material image">
-                            </div>
-                            <div class="line-mat"></div>
-                            <div class="quote-bottom">
+                            <div class="quote-bottom animateText">
                                 <p>
                                     Мы являемся официальным дилером компании Illuminart, которая занимается разработкой и выпуском инновационных отделочных материалов. Теперь в изготовлении мы можем использовать следующие нестандартные материалы
                                 </p>
                             </div>
                         </div>
-                        <div class="material-blk">
-                            <div class="text-mat-blk">
+                        <div class="material-blk animFuncs">
+                            <div class="wr-image-mat">
+                                <div class="image-mat-blk animateIMG">
+                                    <div class="black-wr"></div>
+                                    <img src="/images/material4.jpg" alt="material image">
+                                    <div class="tm-quote animateText">
+                                        <div class="inner-tm-quote">
+                                            <blockquote>
+                                                Прочность прозрачного  бетона позволяет использовать его в строительстве и возводить из него перегородки и самонесущие стены. 
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="line-mat animateText"></div>
+                            </div>
+                            <div class="text-mat-blk animateText">
                                 <p>
                                     Прозрачный бетон Illumicon
                                 </p>
@@ -138,14 +179,23 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="image-mat-blk">
-                                <div class="black-wr"></div>
-                                <img src="/images/material4.jpg" alt="material image">
-                            </div>
-                            <div class="line-mat"></div>
                         </div>
-                        <div class="material-blk">
-                            <div class="text-mat-blk">
+                        <div class="material-blk animFuncs">
+                            <div class="wr-image-mat">
+                                <div class="image-mat-blk animateIMG">
+                                    <div class="black-wr"></div>
+                                    <img src="/images/material5.jpg" alt="material image">
+                                    <div class="tm-quote animateText">
+                                        <div class="inner-tm-quote">
+                                            <blockquote>
+                                                Имеет прекрасные характеристики, такие как отсутствие влагопоглощения, высокая износостойкость, прочность материала на сжатие и изгиб, малая теплопроводность, морозостойкость.
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="line-mat animateText"></div>
+                            </div>
+                            <div class="text-mat-blk animateText">
                                 <p>
                                     Прозрачное дерево Illumiwood
                                 </p>
@@ -162,16 +212,11 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="image-mat-blk">
-                                <div class="black-wr"></div>
-                                <img src="/images/material5.jpg" alt="material image">
-                            </div>
-                            <div class="line-mat"></div>
                         </div>
                     </div>
-                    <div class="form-services">
+                    <div class="form-services animFuncs">
                         <div class="form-inset-s">
-                            <div class="form-port">
+                            <div class="form-port animateText">
                                 <p>
                                     Оформить заявку
                                 </p>
@@ -200,6 +245,9 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="modal-tm">
+                        <a href="#" class="modal-open">отправить заявку</a>
                     </div>
 
                     <!-- begin connection footer -->

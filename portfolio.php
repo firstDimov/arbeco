@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="format-detection" content="telephone=no">
-	<title>Arbeco</title>
+	<title>Arbeko | Portfolio</title>
     
 	<!-- favicon tag -->
 
@@ -51,21 +51,22 @@
             
             <div id="load-cnt-m">
                 <div class="inset-port-m">
-                    <div class="crumbs">
+                    <div class="crumbs startIn">
                         <a href="/" title="Главная">Главная</a>
                     </div>
-                    <div class="title-inside">
+                    <div class="title-inside startIn">
                         <h2>Портфолио</h2>
                     </div>
                     <div class="port-carts">
-                        <div class="port-cart">
-                            <div class="image-port-cart">
+                        <div class="port-cart animFuncs">
+                            <div class="image-port-cart animateIMG parallaxS">
                                 <div class="black-wr"></div>
                                 <img src="/images/port1.jpg" alt="portfolio image">
                             </div>
-                            <div class="bottom-port-cart">
+                            <div class="bottom-port-cart animateText">
                                 <p>
-                                    Интерьерный декор
+                                    <a href="/portfolio/interior-decor" title="Интерьерный декор">Интерьерный декор</a>
+                                    <span class="arrow-article"></span>
                                 </p>
                                 <div class="desc-port-cart">
                                     <p>
@@ -76,14 +77,15 @@
                                 <div class="line-port"></div>
                             </div>
                         </div>
-                        <div class="port-cart">
-                            <div class="image-port-cart">
+                        <div class="port-cart animFuncs">
+                            <div class="image-port-cart animateIMG">
                                 <div class="black-wr"></div>
                                 <img src="/images/port2.jpg" alt="portfolio image">
                             </div>
-                            <div class="bottom-port-cart">
+                            <div class="bottom-port-cart animateText">
                                 <p>
-                                    Фасадный декор
+                                    <a href="/portfolio/facade-decor" title="Фасадный декор">Фасадный декор</a>
+                                    <span class="arrow-article"></span>
                                 </p>
                                 <div class="desc-port-cart">
                                     <p>
@@ -94,14 +96,15 @@
                                 <div class="line-port"></div>
                             </div>
                         </div>
-                        <div class="port-cart">
-                            <div class="image-port-cart">
+                        <div class="port-cart animFuncs">
+                            <div class="image-port-cart animateIMG">
                                 <div class="black-wr"></div>
                                 <img src="/images/port3.jpg" alt="portfolio image">
                             </div>
-                            <div class="bottom-port-cart">
+                            <div class="bottom-port-cart animateText">
                                 <p>
-                                    Иконостасы
+                                    <a href="/portfolio/iconostases" title="Иконостасы">Иконостасы</a>
+                                    <span class="arrow-article"></span>
                                 </p>
                                 <div class="desc-port-cart">
                                     <p>
@@ -112,14 +115,15 @@
                                 <div class="line-port"></div>
                             </div>
                         </div>
-                        <div class="port-cart">
-                            <div class="image-port-cart">
+                        <div class="port-cart animFuncs">
+                            <div class="image-port-cart animateIMG">
                                 <div class="black-wr"></div>
                                 <img src="/images/port4.jpg" alt="portfolio image">
                             </div>
-                            <div class="bottom-port-cart">
+                            <div class="bottom-port-cart animateText">
                                 <p>
-                                    Мебель
+                                    <a href="/portfolio/furniture" title="Мебель">Мебель</a>
+                                    <span class="arrow-article"></span>
                                 </p>
                                 <div class="desc-port-cart">
                                     <p>
@@ -130,14 +134,15 @@
                                 <div class="line-port"></div>
                             </div>
                         </div>
-                        <div class="port-cart">
-                            <div class="image-port-cart">
+                        <div class="port-cart animFuncs">
+                            <div class="image-port-cart animateIMG">
                                 <div class="black-wr"></div>
                                 <img src="/images/port5.jpg" alt="portfolio image">
                             </div>
-                            <div class="bottom-port-cart">
+                            <div class="bottom-port-cart animateText">
                                 <p>
-                                    Скульптуры
+                                    <a href="/portfolio/sculptures" title="Скульптуры">Скульптуры</a>
+                                    <span class="arrow-article"></span>
                                 </p>
                                 <div class="desc-port-cart">
                                     <p>
@@ -148,14 +153,15 @@
                                 <div class="line-port"></div>
                             </div>
                         </div>
-                        <div class="port-cart">
-                            <div class="image-port-cart">
+                        <div class="port-cart animFuncs">
+                            <div class="image-port-cart animateIMG">
                                 <div class="black-wr"></div>
                                 <img src="/images/port6.jpg" alt="portfolio image">
                             </div>
-                            <div class="bottom-port-cart">
+                            <div class="bottom-port-cart animateText">
                                 <p>
-                                    Скамьи
+                                    <a href="/portfolio/benches" title="Скамьи">Скамьи</a>
+                                    <span class="arrow-article"></span>
                                 </p>
                                 <div class="desc-port-cart">
                                     <p>
@@ -166,14 +172,15 @@
                                 <div class="line-port"></div>
                             </div>
                         </div>
-                        <div class="port-cart">
-                            <div class="image-port-cart">
+                        <div class="port-cart animFuncs">
+                            <div class="image-port-cart animateIMG">
                                 <div class="black-wr"></div>
                                 <img src="/images/port7.jpg" alt="portfolio image">
                             </div>
-                            <div class="bottom-port-cart">
+                            <div class="bottom-port-cart animateText">
                                 <p>
-                                    Фасадные панели
+                                    <a href="/portfolio/front-panels" title="Фасадные панели">Фасадные панели</a>
+                                    <span class="arrow-article"></span>
                                 </p>
                                 <div class="desc-port-cart">
                                     <p>
@@ -184,14 +191,15 @@
                                 <div class="line-port"></div>
                             </div>
                         </div>
-                        <div class="port-cart">
-                            <div class="image-port-cart">
+                        <div class="port-cart animFuncs">
+                            <div class="image-port-cart animateIMG">
                                 <div class="black-wr"></div>
                                 <img src="/images/port8.jpg" alt="portfolio image">
                             </div>
-                            <div class="bottom-port-cart">
+                            <div class="bottom-port-cart animateText">
                                 <p>
-                                    Светильники
+                                    <a href="/portfolio/fixtures" title="Светильники">Светильники</a>
+                                    <span class="arrow-article"></span>
                                 </p>
                                 <div class="desc-port-cart">
                                     <p>
@@ -202,14 +210,15 @@
                                 <div class="line-port"></div>
                             </div>
                         </div>
-                        <div class="port-cart">
-                            <div class="image-port-cart">
+                        <div class="port-cart animFuncs">
+                            <div class="image-port-cart animateIMG">
                                 <div class="black-wr"></div>
                                 <img src="/images/port9.jpg" alt="portfolio image">
                             </div>
-                            <div class="bottom-port-cart">
+                            <div class="bottom-port-cart animateText">
                                 <p>
-                                    Вазоны
+                                    <a href="/portfolio/flowerpots" title="Вазоны">Вазоны</a>
+                                    <span class="arrow-article"></span>
                                 </p>
                                 <div class="desc-port-cart">
                                     <p>
@@ -220,8 +229,8 @@
                                 <div class="line-port"></div>
                             </div>
                         </div>
-                        <div class="port-cart">
-                            <div class="form-port">
+                        <div class="port-cart animFuncs">
+                            <div class="form-port animateText">
                                 <p>
                                     Оформить заявку
                                 </p>
@@ -265,4 +274,4 @@
     <script src="/js/jquery-2.2.3.min.js"></script>
     <script src="/js/main.js"></script>
 </body>
-</html>
+</html> -->

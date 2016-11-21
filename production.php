@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="format-detection" content="telephone=no">
-	<title>Arbeco</title>
+	<title>Arbeko | Production</title>
     
 	<!-- favicon tag -->
 
@@ -50,22 +50,31 @@
             
             <div id="load-cnt-m">
                 <div class="inset-port-m">
-                    <div class="crumbs">
+                    <div class="crumbs startIn">
                         <a href="/" title="Главная">Главная</a>
                     </div>
-                    <div class="title-inside">
+                    <div class="title-inside startIn">
                         <h2>Производство</h2>
                     </div>
-                    <div class="desc-production">
-                        <p>
-                            Наладив собственное производство мы, во-первых, сумели значительно удешевить конечную продукцию, но, что самое главное — полностью взяли на себя ответственность за ее качество. Кроме того, мы получили технические возможности подстраиваться под нужды заказчиков, а не вынуждать их идти на компромиссы, связанные с техническими ограничениями сторонних производителей.
-                            <br><br>
-                            Наше производство состоит из нескольких участков:
-                        </p>
+                    <div class="desc-production animFuncs">
+                        <div class="inset-dsc-p animateText">
+                            <p>
+                                Наладив собственное производство мы, во-первых, сумели значительно удешевить конечную продукцию, но, что самое главное — полностью взяли на себя ответственность за ее качество. Кроме того, мы получили технические возможности подстраиваться под нужды заказчиков, а не вынуждать их идти на компромиссы, связанные с техническими ограничениями сторонних производителей.
+                                <br><br>
+                                Наше производство состоит из нескольких участков:
+                            </p>
+                        </div>
                     </div>
                     <div class="production-blks">
-                        <div class="prod-blk">
-                            <div class="text-prod-blk">
+                        <div class="prod-blk animFuncs">
+                            <div class="wr-img-prod">
+                                <div class="image-prod animateIMG">
+                                    <div class="black-wr"></div>
+                                    <img src="/images/prod1.jpg" alt="image prod">
+                                </div>
+                                <div class="line-prod animateText"></div>
+                            </div>
+                            <div class="text-prod-blk animateText">
                                 <p>
                                     <strong>1. Модельный участок</strong>
                                     На модельном участке создается модель или прототип будущего изделия. В зависимости от сложности размеров и назначения, модель может изготавливаться из пластилина, глины или гипса. Особо крупные модели и модели геометрических форм могут изготавливаться из дерева или специальной ламинированной фанеры.
@@ -75,14 +84,16 @@
                                     На форматорском участке где на основе модели изготавливаются специальные формы для последующего производства стеклофибробетона или фибробетона. Материал для изготовления формы выбирается исходя из назначения и размеров конечного изделия. Это может быть специальный эластичный полимер, жесткая полимерная смола, гипс, дерево или ламинированная фанера.
                                 </p>
                             </div>
-                            <div class="image-prod">
-                                <div class="black-wr"></div>
-                                <img src="/images/prod1.jpg" alt="image prod">
-                            </div>
-                            <div class="line-prod"></div>
                         </div>
-                        <div class="prod-blk">
-                            <div class="text-prod-blk">
+                        <div class="prod-blk animFuncs">
+                            <div class="wr-img-prod">
+                                <div class="image-prod animateIMG">
+                                    <div class="black-wr"></div>
+                                    <img src="/images/prod2.jpg" alt="image prod">
+                                </div>
+                                <div class="line-prod animateText"></div>
+                            </div>
+                            <div class="text-prod-blk animateText">
                                 <p>
                                     <strong>3. Участок напыления</strong>
                                     На участке напыления производятся изделия, из изготовленных ранее моделей и форм путем пневмонабрызга и премикса. Упорной работой и постоянным контролем качества мы достигли уровня производства, практически не требующего последующей финишной шпатлевки.
@@ -96,16 +107,11 @@
                                     Ну а деревообрабатывающий участок был создан для изготовления сложных деревянных и фанерных моделей и форм.
                                 </p>
                             </div>
-                            <div class="image-prod">
-                                <div class="black-wr"></div>
-                                <img src="/images/prod2.jpg" alt="image prod">
-                            </div>
-                            <div class="line-prod"></div>
                         </div>
                     </div>
                     <div class="form-services">
-                        <div class="form-inset-s">
-                            <div class="form-port">
+                        <div class="form-inset-s animFuncs">
+                            <div class="form-port animateText">
                                 <p>
                                     Оформить заявку
                                 </p>
@@ -134,6 +140,9 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="modal-tm">
+                        <a href="#" class="modal-open">отправить заявку</a>
                     </div>
 
                     <!-- begin connection footer -->

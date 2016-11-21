@@ -577,8 +577,10 @@ yx-axis
   }
 
   .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
-    background-color: #fff; background-color: rgba(255,255,255,0.75);
-    filter: "alpha(opacity=75)"; -ms-filter: "alpha(opacity=75)"; 
+    background: rgb(193,155,76); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(193,155,76,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(193,155,76,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(193,155,76,1) 0%,rgba(0,0,0,1) 100%);
   }
 
   .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
@@ -653,10 +655,17 @@ yx-axis
 
   .mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ background-color: none; background-color: none; }
 
-  .mCS-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{ background-color: rgba(0,0,0,0.85); }
+  .mCS-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{  background: rgb(193,155,76); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(193,155,76,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(193,155,76,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(193,155,76,1) 0%,rgba(0,0,0,1) 100%); }
 
   .mCS-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
-  .mCS-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{ background-color: rgba(0,0,0,0.9); }
+  .mCS-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{ 
+   background: rgb(193,155,76); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(193,155,76,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(193,155,76,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(193,155,76,1) 0%,rgba(0,0,0,1) 100%); }
 
   .mCS-dark.mCSB_scrollTools .mCSB_buttonUp{ background-position: -80px 0; }
 
